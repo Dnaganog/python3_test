@@ -1,5 +1,5 @@
 def num_plus(num = 8, result = 0):
-    if(num == 0): return result
+    if (num == 0): return result
     num += 1
     return num_plus(num - 2, result + num)
 
